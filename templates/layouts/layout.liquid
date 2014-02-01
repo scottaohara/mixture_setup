@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/Person">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>{% block title %}Empty{% endblock %}</title>
+
+    <meta itemprop="name"         content="Microdata of your name" />
+    <meta itemprop="description"  content="Enter microdata description of your website" />
+    <meta name="description"      content="" />
+
+    <link rel="canonical" href="http://###" />
+
+    <!-- Mobile Meta -->
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized"  content="320" />
+    <meta name="viewport"         content="width=device-width, minimum-scale=1, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico"  href="favicon.ico" />
+
+    <!-- Apple Touch Icon / Startup Screen  __ uncomment / update href to use.
+    <link rel="apple-touch-icon-precomposed"    href="#apple-icon-144.png" />
+    <link rel="apple-touch-startup-image"       href="#startup.png" />
+    -->
+
+    <!-- Styles: these are for development only.
+         Combine the min files when deploying project.
+    -->
+    {{ "master.css" | asset_url | stylesheet_tag }}
+    {{ "project.css" | asset_url | stylesheet_tag }}
+
+    <!-- Style block allowing child pages to inject their own styles -->
+    {% block styles %}{% endblock %}
+    <!-- Author -->
+    <link rel="author" type="text/plain" href="humans.txt" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="page">
+
+    <header class="header-base" role="banner">
+      <div class="content">
+        {% include "header" %}
+      </div>
+    </header>
+
+    <section class="content-base">
+
+      {% block content %}{% endblock %}
+
+    </section>
+
+    <footer class="footer-base" role="contentinfo">
+      <div class="content">
+        {% include "footer" %}
+      </div>
+    </footer>
+
+  </div> <!-- end .page -->
+
+
+
+    <!-- Script block allowing child pages to inject their own scripts
+    {% block scripts %}{% endblock %}
+    {{ "app.js" | asset_url | script_tag }}-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>-->
+  </body>
+</html>
