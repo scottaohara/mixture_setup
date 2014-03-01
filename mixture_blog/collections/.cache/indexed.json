@@ -1,0 +1,135 @@
+{
+  "article": {
+    "index": {
+      "title": {
+        "an example markdown post": [
+          "/article/markdown-example"
+        ],
+        "an example haml post": [
+          "/article/haml-example"
+        ],
+        "an example liquid post": [
+          "/article/liquid-example"
+        ]
+      },
+      "ticks": {
+        "1370908800.0": [
+          "/article/markdown-example"
+        ],
+        "1370995200.0": [
+          "/article/haml-example"
+        ],
+        "1371081600.0": [
+          "/article/liquid-example"
+        ]
+      },
+      "tags": {
+        "liquid": [
+          "/article/liquid-example"
+        ],
+        "haml": [
+          "/article/haml-example"
+        ],
+        "example": [
+          "/article/haml-example",
+          "/article/markdown-example"
+        ],
+        "markdown": [
+          "/article/markdown-example"
+        ]
+      },
+      "mixture_month_year": {
+        "06/2013": [
+          "/article/haml-example",
+          "/article/markdown-example",
+          "/article/liquid-example"
+        ]
+      },
+      "slug": {
+        "/article/haml-example": [
+          "/article/haml-example"
+        ],
+        "/article/markdown-example": [
+          "/article/markdown-example"
+        ],
+        "/article/liquid-example": [
+          "/article/liquid-example"
+        ]
+      },
+      "mixture_date": {
+        "2013-06-12t00:00:00z": [
+          "/article/haml-example"
+        ],
+        "2013-06-13t00:00:00z": [
+          "/article/liquid-example"
+        ],
+        "2013-06-11t00:00:00z": [
+          "/article/markdown-example"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/article/haml-example",
+          "/article/markdown-example",
+          "/article/liquid-example"
+        ]
+      },
+      "month": {
+        "06": [
+          "/article/haml-example",
+          "/article/markdown-example",
+          "/article/liquid-example"
+        ]
+      }
+    },
+    "collection": {
+      "/article/haml-example": {
+        "ticks": 1370995200.0,
+        "title": "An example HAML post",
+        "mixture_month_year": "06/2013",
+        "tags": [
+          "Example",
+          "Haml"
+        ],
+        "mixture_date": "2013-06-12T00:00:00Z",
+        "slug": "/article/haml-example",
+        "date": "Wed Jun 12 00:00:00 UTC 2013",
+        "published": true,
+        "year": "2013",
+        "month": "06",
+        "body": "<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.\n</p>\n<blockquote>\n  <p>\n    &#8220;Lorem ipsum dolor sit amet&#8221;\n  </p>\n</blockquote>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.\n</p>\n<ol>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ol>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</pre>\n<p>\n  <a href='http://docs.mixture.io'>\n    http://docs.mixture.io\n  </a>\n</p>\n<p>\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy\n</p>\n<ul>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n  <li>\n    Lorem ipsum dolor sit amet.\n  </li>\n</ul>\n"
+      },
+      "/article/markdown-example": {
+        "ticks": 1370908800.0,
+        "title": "An example Markdown post",
+        "mixture_month_year": "06/2013",
+        "tags": [
+          "Example",
+          "Markdown"
+        ],
+        "mixture_date": "2013-06-11T00:00:00Z",
+        "slug": "/article/markdown-example",
+        "date": "Tue Jun 11 00:00:00 UTC 2013",
+        "published": true,
+        "year": "2013",
+        "month": "06",
+        "body": "\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n\n<blockquote>\n  <p>&#8220;Lorem ipsum dolor sit amet&#8221;</p>\n</blockquote>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n\n<ol>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ol>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>\n\n<ul>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n  <li>Lorem ipsum dolor sit amet.</li>\n</ul>\n"
+      },
+      "/article/liquid-example": {
+        "ticks": 1371081600.0,
+        "title": "An example Liquid post",
+        "mixture_month_year": "06/2013",
+        "tags": [
+          "Liquid"
+        ],
+        "mixture_date": "2013-06-13T00:00:00Z",
+        "slug": "/article/liquid-example",
+        "date": "Thu Jun 13 00:00:00 UTC 2013",
+        "published": true,
+        "year": "2013",
+        "month": "06",
+        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>\n<blockquote><p>&#8220;Lorem ipsum dolor sit amet&#8221;</p></blockquote>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>\n<ol>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ol>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<pre>&lt;!doctype html&gt;\n&lt;html&gt;\n  &lt;body&gt;\n    &lt;h1&gt;Page Headline&lt;/h1&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n</pre>\n<p><a href=\"http://docs.mixture.io\">http://docs.mixture.io</a></p>\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>\n<ul>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n\t<li>Lorem ipsum dolor sit amet.</li>\n</ul>"
+      }
+    }
+  }
+}
