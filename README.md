@@ -1,4 +1,8 @@
-Deprecated mixture_setup
+Deprecated mixture setup
 =============
 
-Mixture.io shut down.  So this isn't really helpful anymore.
+Mixture.io shut down.  
+
+So this isn't really helpful anymore.
+
+Oh well...
